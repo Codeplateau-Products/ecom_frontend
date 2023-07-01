@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import '../assets/css/footer1.css';
 import payment from '../assets/images/payment.png';
 import logofooter from '../assets/images/logo-footer.png';
 
 const Footer = () => {
 
-    useState = (() =>{
+    useEffect(() => {
         /* $(document).ready(function () {
             $(".gallery_image_instagram13224991791686976859").attr("rel", "gallery").fancybox({
                 prevMethod: false,

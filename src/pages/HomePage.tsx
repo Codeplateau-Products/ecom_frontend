@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import enGbFlag from "../assets/images/language/en-gb/en-gb.png";
+// import enGbFlag from "../assets/images/language/en-gb/en-gb.png";
 import slider2 from "../assets/images/slider-2-950x450.jpg";
 import banner1 from "../assets/images/banner1.jpg";
 import banner2 from "../assets/images/banner2.jpg";
