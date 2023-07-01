@@ -45,10 +45,10 @@ function App() {
                   {" "}
                   <Outlet />{" "}
                 </>
-              }
-            >
+              }>
               <Route index element={<h1>Home</h1>} />
               <Route path="about" element={<h1>About</h1>} />
+              <Route path="contact" element={<h1>Contact</h1>} />
               <Route path="register" element={<h1>Register</h1>} />
               <Route path="login" element={<h1>Login</h1>} />
 
@@ -60,7 +60,7 @@ function App() {
                   </ProtectedRoute>
                 }
               />
-                <Route path="*" element={<h1>404</h1>} />
+              <Route path="*" element={<h1>404</h1>} />
             </Route>
 >>>>>>> 460d57ac525c320fa7279160dc988584f4a3c8eb
           </Routes>
