@@ -138,3 +138,37 @@ header a:hover {
     height: 110%;
     margin-bottom: 20px;
 }
+
+/**---------------------category--------------------------**/
+.contentWidth{
+    width: 77%;
+}
+.category{
+    width: 23%;
+    box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
+    height: 510px;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.category span{
+    margin: 10px 20px;
+    text-transform: capitalize;
+}
+.category .box{
+    transition: 0.5s;
+    padding: 0 20px;
+}
+.category .box li a:hover{
+    background-color: #ffe1ef;
+    cursor: pointer;
+}
+.category .box li a{
+    font-size: 15px;
+    margin-left: -25%;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.diamond{
+    font-size: 14px !important;
+}

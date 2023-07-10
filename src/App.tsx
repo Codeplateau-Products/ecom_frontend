@@ -1,24 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import './App.css';
+import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import 'font-awesome/css/font-awesome.min.css';
-import './assets/css/style.css';
-import './App.css';
-import $ from 'jquery';
-
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
-// import Layout from './components/Layout';
-// import AuthSidebar from './components/AuthSidebar';
+import Footer from './components/Footer/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-const App = () => {
-  return (
-    <Router>
+function App(){
+  return(
+    <>
+      <Router>
       <div>
         <Header />
 
@@ -32,8 +26,10 @@ const App = () => {
 
         <Footer />
       </div>
-    </Router>
-  );
-};
+      </Router>
+      
+    </>
+  )
+}
 
 export default App;

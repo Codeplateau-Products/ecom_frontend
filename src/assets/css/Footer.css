@@ -1,0 +1,150 @@
+/**-------------------Newsletter-------------------------**/
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #232f3e;
+    padding: 20px;
+    padding-block: 30px;
+}
+#newsletter h4{
+    font-size: 33px;
+    font-weight: 700;
+    color: #fff;
+}
+#newsletter p{
+    font-size: 15px;
+    color: #fff;
+}
+.fa-paper-plane{
+    font-size: 40px;
+    color: white;
+}
+.socials{
+    color: #fff;
+    font-size: 20px;
+}
+.socials a{
+    color: #fff !important;
+}
+.socials i{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.newstext{
+    margin-left: -8%;
+}
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 80%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsletter button{
+    background-color: rgb(221, 39, 7);
+    color: #fff;
+    white-space: nowrap;
+    padding-inline: 15px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+/**----------------------FooterLinks--------------------------------**/
+
+.footerlinks{
+    padding: 50px;
+    margin-bottom: -5%;
+}
+.footerlinks p{
+    font-size: 14px;
+    color: rgb(78, 77, 76);
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .coll{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .coll h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+hr{
+    background-color: red !important;
+}
+.coll li{
+    list-style: square !important;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.coll li a{
+    color: rgb(78, 77, 76) !important;
+}
+.coll li a:hover{
+    color:rgb(221, 39, 7) !important;
+}
+
+/**----------------------Services--------------------------------**/
+
+.service1{
+    display: flex;
+    justify-content: center;
+    
+}
+.service1 li{
+    font-size: 14px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.service1 li a{
+    color: rgb(78, 77, 76) !important;
+
+}
+.service1 li a:hover{
+    color:rgb(221, 39, 7) !important;
+}
+.service1 span{
+    font-size: 14px;
+    color: rgb(78, 77, 76) !important;
+}
+.service1 img{
+    margin-block: 15px;
+}
+.service{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+/**----------------------Copyright--------------------------------**/
+.copyright p a{
+    color:rgb(221, 39, 7) !important;
+}
+.copyright p{
+    font-size: 13px;
+    color: #fff;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    background-color: #232f3e;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}

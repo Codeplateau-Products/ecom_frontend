@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import '../assets/css/Home.css';
+import '../assets/css/Header.css';
 
 // import enGbFlag from "../assets/images/language/en-gb/en-gb.png";
 import slider2 from "../assets/images/slider-2-950x450.jpg";
@@ -15,28 +17,69 @@ import image5 from '../assets/images/18-270x270.webp';
 
 
 const HomePage = () => {
+    useEffect(() => {
+        document.title = 'eMarket';
+    }, []);
   return (
     <>
       <div className="row ">
-            <div className="col-2 main-sidebar small">
-                <div className="card">
-                    <nav className="nav shadow flex-column">
-                        <a className="nav-link" href="#"><i className="fa fa-gift"></i> Gifts & Toys</a>
-                        <a className="nav-link" href="#"><i className="fa fa-plug"></i> Electronics</a>
-                        <a className="nav-link" href="#"><i className="fa fa-diamond"></i> Fashion & Accessories</a>
-                        <a className="nav-link" href="#"><i className="fa fa-shopping-bag"></i> Bags & Shoes</a>
-                        <a className="nav-link" href="#"><i className="fa fa-video-camera"></i> Optimum Electronics</a>
-                        <a className="nav-link" href="#"><i className="fa fa-bath"></i> Bathroom</a>
-                        <a className="nav-link" href="#"><i className="fa fa-heartbeat"></i> Health & Beauty</a>
-                        <a className="nav-link" href="#"><i className="fa fa-dot-circle-o"></i> Home & Light</a>
-                        <a className="nav-link" href="#"><i className="fa fa-gift"></i> Metallurgy</a>
-                        <a className="nav-link" href="#"><i className="fa fa-bed"></i> Bedroom</a>
-                        <a className="nav-link" href="#"><i className="fa fa-cogs"></i> Industrial Parts</a>
-                        <a className="nav-link" href="#"><i className="fa fa-chevron-down"></i> More Categories</a>
-                    </nav>
+                <div className="category col-2 shadow">
+                    <div className="box f-flexx">
+                        <ul>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-gift"></i> Gifts & Toys</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-plug"></i> Electronics</a>
+                            </li>
+                            <li>
+                                <a className="nav-link diamond" href="#"><i className="fa fa-diamond"></i> Fashion & Accessories</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-shopping-bag"></i> Bags & Shoes</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-video-camera"></i> Optimum Electronics</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-bath"></i> Bathroom</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-heartbeat"></i> Health & Beauty</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-dot-circle-o"></i> Home & Light</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-gift"></i> Metallurgy</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-bed"></i> Bedroom</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-cogs"></i> Industrial Parts</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#"><i className="fa fa-chevron-down"></i> More Categories</a>
+                            </li>
+                        </ul>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
                 </div>
-            </div>
-            <div className="col-10 ps-5 main-content">
+    
+            <div className="col-9  main-content">
                 <div className="row">
                     <div className="col-9">
                         <a href="#"><img src={slider2} alt="Slide 1" /></a>
@@ -61,45 +104,45 @@ const HomePage = () => {
                 </div>
                 <section className="col section-p1" id="feature">
                     <div className="fe-box">
-                        <img src={image1} alt="feature" />
+                        <img src={image1} alt="feature" className="img-fluid"/>
                         <h6>Balltip nullaeit</h6>
                     </div>
                     <div className="fe-box">
-                        <img src={image2} alt="feature" />
+                        <img src={image2} alt="feature" className="img-fluid" />
                         <h6>Wamboudin Ribeye</h6>
                     </div>
                     <div className="fe-box">
-                        <img src={image3} alt="feature" />
+                        <img src={image3} alt="feature" className="img-fluid" />
                         <h6>Hroscuiutto Kevincap</h6>
                     </div>
                     <div className="fe-box">
-                        <img src={image4} alt="feature" />
+                        <img src={image4} alt="feature" className="img-fluid" />
                         <h6>Cenison Meatloa</h6>
                     </div>
                     <div className="fe-box">
-                        <img src={image5} alt="feature" />
+                        <img src={image5} alt="feature" className="img-fluid" />
                         <h6>Proident Laborum</h6>
                     </div>
                 </section>
                 <section className="row section-p1" id="feature">
                     <div className="fe-box">
-                        <img src={image1} alt="feature" />
+                        <img src={image1} alt="feature" className="img-fluid" />
                         <h6>Balltip nullaeit</h6>
                     </div>
                     <div className="fe-box">
-                        <img src={image2} alt="feature" />
+                        <img src={image2} alt="feature" className="img-fluid" />
                         <h6>Wamboudin Ribeye</h6>
                     </div>
                     <div className="fe-box">
-                        <img src={image3} alt="feature" />
+                        <img src={image3} alt="feature" className="img-fluid" />
                         <h6>Hroscuiutto Kevincap</h6>
                     </div>
                     <div className="fe-box">
-                        <img src={image4} alt="feature" />
+                        <img src={image4} alt="feature" className="img-fluid" />
                         <h6>Cenison Meatloa</h6>
                     </div>
                     <div className="fe-box">
-                        <img src={image5} alt="feature" />
+                        <img src={image5} alt="feature" className="img-fluid" />
                         <h6>Proident Laborum</h6>
                     </div>
                 </section>
